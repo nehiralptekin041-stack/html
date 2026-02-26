@@ -1,1 +1,36 @@
 # html-table-form
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Benim Ödevim</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <h2>Öğrenci Listesi</h2>
+
+    <table border="1">
+        <tr>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Numara</th>
+        </tr>
+        <tr>
+            <td>Nehir</td>
+            <td>Yılmaz</td>
+            <td>123</td>
+        </tr>
+    </table>
+
+    <h2>İletişim Formu</h2>
+
+    <form>
+        Ad: <input type="text"><br><br>
+        Email: <input type="email"><br><br>
+        Mesaj: <br>
+        <textarea rows="4" cols="30"></textarea><br><br>
+        <button type="submit">Gönder</button>
+    </form>
+
+</body>
+</html>
